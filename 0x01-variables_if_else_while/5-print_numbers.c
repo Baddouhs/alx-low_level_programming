@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combinations of single digit numbers
+ * main - prints numbers fron 0 to 9
+ *
  * Return: Always 0 (Success)
  */
 
@@ -9,14 +10,9 @@ int main(void)
 {
 	int i;
 
-	for (i = 48; i < 58; i++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
-		if (i != 57);
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		printf("%d", i);
 	}
 	putchar('\n');
 	return (0);
